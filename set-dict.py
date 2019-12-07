@@ -35,6 +35,9 @@ print("S" not in testD1)
 
 print(testD1)
 del testD1["S"]  # 刪除dict中的建值對（key-value pair)
+del testD1["G"]  # 刪除dict中的建值對（key-value pair)
+del testD1[1]  # 刪除dict中的建值對（key-value pair)
+del testD1[3]  # 刪除dict中的建值對（key-value pair)
 print(testD1)
 
 
