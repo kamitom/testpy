@@ -15,10 +15,10 @@ testSet = {10, 20, 30}
 {"app": "apple", "goo": "google", "fb": "facebook"}
 
 # 變數
-testVar = {"app": "apple", "goo": "google", "fb": "facebook"}
+testDict = {"app": "apple", "goo": "google", "fb": "facebook"}
 
 print(testList[2])
 print(testTup[1])
-print(testVar["goo"])
+print(testDict["goo"])
 
 print(len(testList))
