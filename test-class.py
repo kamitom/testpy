@@ -2,18 +2,18 @@
 # 定義class
 
 
-class TestIO:
+class TestIOCls:
     supportedSrcs = ["console", "file"]
 
-    def read(src):
-        if src not in TestIO.supportedSrcs:
+    def readSrc(src):
+        if src not in TestIOCls.supportedSrcs:
             print("not supported")
         else:
             print("read from", src)
 
 
 # 使用class
-print(TestIO.supportedSrcs)
+print(TestIOCls.supportedSrcs)
 # print(TestIO.read("file"))
-TestIO.read("file")
-TestIO.read("internet")
+TestIOCls.readSrc("file")
+TestIOCls.readSrc("internet")
