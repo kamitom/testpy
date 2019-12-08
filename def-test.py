@@ -1,11 +1,13 @@
 
-def hello(msg):
+def hello(msg="lufy"):
     print("hello: ", msg)
 
 
 test = str(input("your NAME: "))
-valueTest = hello(test)
+valueTest = hello()
 print("none? ", valueTest)
+
+# hello()
 
 
 def addUs(n1, n2):
@@ -23,5 +25,5 @@ def addUs(max):
     return sum
 
 
-targetNumber = int(input("ur number: "))
+targetNumber = int(input("累加到: "))
 print(addUs(targetNumber))
