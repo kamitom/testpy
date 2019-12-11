@@ -2,7 +2,7 @@
 
 grades = [100, 99, 23, 45, 92]
 
-grades[2] = 88
+grades[2] = 88  # 異動99 改為88
 
 for gradeValue in grades:
     print(gradeValue)
@@ -23,11 +23,11 @@ dataList[1][0:2] = [22, 99, 97]
 print(dataList[1])
 
 # 有序 不可變動的列表 Tuple
-testTuple2 = (100, 200, 23, 53, (11,22))
+testTuple2 = (100, 200, 23, 53, (11, 22))
 print(testTuple2[0:2])
 print(testTuple2[4])
 
 
-# testTuple2[0] = 5 # raise error: tuple 不可異動
+testTuple2[0] = 5 # raise error: tuple 不可異動
 
-# print(grades[0])
+print(grades[0])
