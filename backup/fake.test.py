@@ -9,7 +9,7 @@ for i in range(2):
     print("id: ", i)
     print("name: ", fakerTest2.name())
     print("addr: ", fakerTest2.address())
-    print("text: ", fakerTest2.text())
+    # print("text: ", fakerTest2.text())
 
 
 print(sys.platform)

@@ -1,5 +1,8 @@
 # import geometry as g
+# import modules.geometry as g
+
 import modules.geometry as g
+
 import sys
 sys.path.append("modules")  # 模組path 中,新增路徑
 
