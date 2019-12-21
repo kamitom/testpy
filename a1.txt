@@ -1,1 +1,2 @@
 We are building Debian packages for several Ubuntu platforms
+現在這一行是中文字。
